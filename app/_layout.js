@@ -16,10 +16,7 @@ const Layout = () => {
           headerTitleStyle: { fontSize: 18 },
         }}
       />
-      <Stack.Screen
-        name="details"
-        options={{ headerTitle: "Details", headerBackTitle: "Back" }}
-      />
+
       <Stack.Screen name="[id]" options={{ headerBackTitle: "Back to List" }} />
     </Stack>
   );

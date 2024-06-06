@@ -1,6 +1,7 @@
 import { useLocalSearchParams, useNavigation } from "expo-router";
 import { useEffect, useState } from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
+
 import { getDetails, getTvDetails } from "../api/api";
 
 function Page() {
